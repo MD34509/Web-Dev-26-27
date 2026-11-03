@@ -1,43 +1,33 @@
 /* Challenge 8: Change font to Arial for all elements */
 * {
-  font-family: Arial;
+    font-family: Arial;
 }
 
 /* Challenge 9: Background color for elements with class banner using rgb() */
 .banner {
-  background-color: rgb(0, 225, 225);
-  padding: 15px;
+    background-color: rgb(0, 225, 225);
 }
 
 /* Challenge 10: Background color for elements with class subbanner using hex */
 .subbanner {
-  background-color: #FF69B4;
-  padding: 10px;
+    background-color: #FF69B4;
 }
 
 /* Challenge 11: Image sizes, border-radius, and horizontal layout row */
-.gallery {
-  display: flex;
-  gap: 15px;
-}
-
 .gallery img {
-  border-radius: 6px;
-  height: 200px;
-  width: auto;
+    height: 200px;
+    width: auto;
+    border-radius: 6px;
 }
 
-/* Challenge 12: First gallery hover effect (Blur) */
+/* Challenge 12: First gallery hover effect (Changes the shape on hover) */
 #firstGallery img:hover {
-  filter: blur(2px);
+    border-radius: 25px;
 }
 
-/* Challenge 13: Second gallery hover effect (Opacity) */
+/* Challenge 13: Second gallery hover effect (Slightly shrinks the height on hover) */
 #secondGallery img:hover {
-  opacity: 0.7;
+    height: 190px;
 }
 
 /* Challenge 14: Transition speed for smooth animations */
-* {
-  transition: 1s;
-}
