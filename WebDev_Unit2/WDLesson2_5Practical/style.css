@@ -6,25 +6,25 @@
 /* Challenge 9: Background color for elements with class banner using rgb() */
 .banner {
   background-color: rgb(0, 225, 225);
-  padding: 15px; /* Adds height to the cyan bar */
+  padding: 15px;
 }
 
 /* Challenge 10: Background color for elements with class subbanner using hex */
 .subbanner {
   background-color: #FF69B4;
-  padding: 10px; /* Adds height to the pink bar */
+  padding: 10px;
 }
 
 /* Challenge 11: Image sizes, border-radius, and horizontal layout row */
 .gallery {
   display: flex;
-  gap: 15px; /* Adds clean spacing between images like the example */
+  gap: 15px;
 }
 
 .gallery img {
   border-radius: 6px;
   height: 200px;
-  width: auto; /* This stops the first burger image from blowing up */
+  width: auto;
 }
 
 /* Challenge 12: First gallery hover effect (Blur) */
