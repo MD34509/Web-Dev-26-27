@@ -1,23 +1,43 @@
-/* Challenge 8: Change the type of font to Arial for all elements */
+/* Challenge 8: Change font to Arial for all elements */
+* {
+  font-family: Arial;
+}
 
-/* Challenge 9: Change the background color for all elements with a class of banner.  Choose a color
-                using rgb( )
-*/
+/* Challenge 9: Background color for elements with class banner using rgb() */
+.banner {
+  background-color: rgb(0, 225, 225);
+  padding: 15px; /* Adds height to the cyan bar */
+}
 
-/* Challenge 10: Change the background color for all elements with a class of subbanner.  Choose a color
-                using a hexdecimal value. 
-*/
+/* Challenge 10: Background color for elements with class subbanner using hex */
+.subbanner {
+  background-color: #FF69B4;
+  padding: 10px; /* Adds height to the pink bar */
+}
 
-/* Challenge 11: Change the radius of the border to 6px and height to 200px for all images inside of all 
-                 elements with a class of gallery 
-*/
+/* Challenge 11: Image sizes, border-radius, and horizontal layout row */
+.gallery {
+  display: flex;
+  gap: 15px; /* Adds clean spacing between images like the example */
+}
 
-/* Challenge 12: When the visitor moves their mouse over images inside of the element with an id of firstGallery,
-                 apply some type of styling using the filter( ) effect
-*/
+.gallery img {
+  border-radius: 6px;
+  height: 200px;
+  width: auto; /* This stops the first burger image from blowing up */
+}
 
-/* Challenge 13: When the visitor moves their mouse over images inside of the element with an id of secondGallery,
-                 apply some other type of styling.
-*/
+/* Challenge 12: First gallery hover effect (Blur) */
+#firstGallery img:hover {
+  filter: blur(2px);
+}
 
-/* Challenge 14: Change the transition for all elements to 1 second */
+/* Challenge 13: Second gallery hover effect (Opacity) */
+#secondGallery img:hover {
+  opacity: 0.7;
+}
+
+/* Challenge 14: Transition speed for smooth animations */
+* {
+  transition: 1s;
+}
