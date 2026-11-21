@@ -1,66 +1,69 @@
 /* Challenge 2: Use w3SchoolsMockUp.png to help you write the necessary CSS rules.
    Hint: Remember all the fundamental CSS rules when working with flexboxes */
 
-body {
-  margin: 0px;
-  font-family: Arial;
+body { 
+  font-family: Arial; 
 }
 
-#banner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px;
-  font-size: 24pt;
+#banner { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  font-size: 24pt; 
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  background-color: green;
-  padding: 15px;
+nav { 
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  background-color: green; 
+  height: 50px;        
 }
 
-nav a {
-  color: white;
-  text-decoration: none;
-  font-size: 16pt;
+nav a { 
+  color: white; 
+  text-decoration: none; 
+  font-size: 16pt; 
 }
 
-#body {
-  display: flex;
+#body { 
+  display: flex; 
+  height: 350px;       
 }
 
-#links {
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
+#links { 
+  display: flex; 
+  flex-direction: column; 
+  width: 150px;        
   box-shadow: 2px 2px 5px gray;
+  height: 350px;
 }
 
-#links a {
-  color: black;
-  text-decoration: none;
-  padding: 8px;
+#links a { 
+  color: black; 
+  text-decoration: none; 
+  line-height: 2; 
 }
 
-#main {
-  flex: 1;
-  display: flex;
+#main { 
+  flex: 1; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+#sample { 
+  flex: 1; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+#footer { 
+  display: flex;       
   justify-content: center;
   align-items: center;
-}
-
-#sample {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#footer {
-  background-color: green;
-  color: white;
-  text-align: center;
-  padding: 10px;
+  background-color: green; 
+  color: white; 
+  height: 50px;        
 }
